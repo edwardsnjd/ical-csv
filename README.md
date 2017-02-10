@@ -3,8 +3,12 @@ ical-csv
 
 Simple CLI app to export a CSV feed of (optionally filtered) events from an iCal feed.
 
+You can find the iCal URL for a private Google Calendar through: `Settings` > `Calendars` > `{The Calendar}` > `Private Address` > `iCal`.
+
 Usage
 =====
+
+Use the `help` option on the command line for usage info:
 
 ```
 > node index.js --help
