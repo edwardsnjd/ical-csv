@@ -1,0 +1,19 @@
+{
+  "name": "ical-csv",
+  "version": "1.0.0",
+  "description": "Simple CLI app to export a CSV feed of (optionally filtered) events from an iCal feed.",
+  "scripts": {
+    "example-nasa": "node index.js https://www.nasa.gov/templateimages/redesign/calendar/iCal/nasa_calendar.ics",
+    "example-nasa-discovery": "node index.js -q discovery https://www.nasa.gov/templateimages/redesign/calendar/iCal/nasa_calendar.ics"
+  },
+  "keywords": [],
+  "author": "Nicholas Edwards",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "csv-stringify": "^1.0.4",
+    "ical-utils": "github:edwardsnjd/ical-utils",
+    "lodash": "^4.17.4",
+    "thenify": "^3.2.1"
+  }
+}
