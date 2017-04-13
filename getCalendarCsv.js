@@ -13,7 +13,7 @@ const getCalendarCsv = (calendarUrl, query) =>
         .then(filter(getFilter(query)))
         .then(map(transforms.selectSummary))
         .then(map(transforms.addDurationInHours))
-        .then(map(transforms.datesToFormat('YYYY-MM-DD HH:MM', 'start', 'end')))
+        .then(map(transforms.datesToFormat('YYYY-MM-DD HH:mm', 'start', 'end')))
         .then((records) => csvify(records, {header:true}));
 
 module.exports = getCalendarCsv;
