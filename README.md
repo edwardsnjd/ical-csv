@@ -26,5 +26,5 @@ Get all events from NASA calendar (aliased as NPM script `example-nasa`):
 Get all events from NASA calendar with 'discovery' in the title (aliased as NPM script `example-nasa-discovery`):
 
 ```
-> node index.js -f discovery https://www.nasa.gov/templateimages/redesign/calendar/iCal/nasa_calendar.ics
+> node index.js -q discovery https://www.nasa.gov/templateimages/redesign/calendar/iCal/nasa_calendar.ics
 ```
